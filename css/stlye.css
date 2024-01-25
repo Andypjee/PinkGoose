@@ -1,0 +1,605 @@
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  display: flex;
+}
+nav ul {
+  display: flex;
+}
+nav div {
+  width: 33%;
+  height: 50px;
+  background-color: #000000;
+  margin: 0px;
+  padding: 0px;
+}
+.button {
+  display: flex;
+  margin-left: 185px;
+  width: 75px;
+  height: 36px;
+  background-color: rgb(91, 91, 91);
+  border-radius: 5px;
+  border-width: 3p;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 75px;
+  top: 7px;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #07141a;
+}
+main {
+  color: white;
+}
+body{
+  background-color: black;
+}
+/* Dit zorgt ervoor dat de background color zwart is */
+
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.TheEasiest {
+  display: flex;
+  padding: 40px;
+  font-size: 70px;
+}
+.AnAll {
+  display: flex;
+  font-size: 20px;
+}
+.GetS {
+  display: flex;
+  background-color: rgb(206, 170, 255);
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 25px;
+  color: black;
+}
+#learn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.arrow {
+  margin-top: 100px;
+}
+.steren {
+  margin-right: 500px;
+  margin-bottom: -75px;
+}
+
+.readyF {
+  display: flex;
+  padding: 40px;
+  font-size: 29px;
+  margin-top: 10px;
+}
+
+.DAOP {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DAO {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 600px;
+  gap: 23px;
+}
+.inve {
+  border-radius: 50px;
+  background-color: rgb(18, 30, 40);
+  padding: 10px;
+  font-size: 10px;
+  color: rgb(255, 180, 211);
+}
+.star {
+  border-radius: 50px;
+  background-color: rgb(18, 30, 40);
+  padding: 10px;
+  font-size: 10px;
+  color: rgb(255, 194, 76);
+}
+.servi {
+  border-radius: 50px;
+  background-color: rgb(18, 30, 40);
+  padding: 10px;
+  font-size: 10px;
+  color: rgb(211, 153, 247);
+}
+.comm {
+  border-radius: 50px;
+  background-color: rgb(18, 30, 40);
+  padding: 10px;
+  font-size: 10px;
+  color: rgb(119, 230, 255);
+}
+.impact {
+  border-radius: 50px;
+  background-color: rgb(18, 30, 40);
+  padding: 10px;
+  font-size: 10px;
+  color: rgb(35, 201, 222);
+}
+.defi {
+  border-radius: 50px;
+  background-color: rgb(18, 30, 40);
+  padding: 10px;
+  font-size: 10px;
+  color: rgb(255, 158, 158);
+}
+.more {
+  border-radius: 50px;
+  background-color: rgb(18, 30, 40);
+  padding: 10px;
+  font-size: 10px;
+  color: rgb(112, 127, 141);
+}
+.spel {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 50px;
+}
+.spel img {
+  height: 45%;
+  width: 45%;
+  display: flex;
+  align-self: center;
+}
+.projectblock {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: -100;
+}
+.project {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  color: black;
+  font-size: 18px;
+  background-color: rgb(255, 180, 211);
+  text-align: center;
+  width: 350px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -20px;
+}
+.designed {
+  margin-top: 190px;
+  color: #37424d;
+  display: grid;
+  text-align: center;
+  font-size: 25px;
+  gap: 32px;
+}
+
+#white {
+  color: white;
+}
+#pink {
+  color: pink;
+}
+.tekens {
+  display: flex;
+  gap: 28px;
+  justify-content: end;
+  padding: 30px 30px;
+}
+
+.workWith {
+  font-size: 27px;
+  padding: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.geld {
+  background-color: rgb(16, 21, 26);
+  border-radius: 50px;
+  border: 2px solid #37424d;
+}
+.gelddoos {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+h3 {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.help {
+  display: flex;
+  flex-direction: column;
+}
+.helpat {
+  display: flex;
+  justify-content: center;
+
+  font-size: 50px;
+  margin-top: 160px;
+}
+
+/* de box om de fotos heen */
+.fotodoos {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  font-size: 80px;
+  gap: 40px;
+}
+
+.sterrenhemel {
+  display: flex;
+  flex-direction: column;
+  font-size: 39px;
+  gap: 30px;
+}
+.sterrenhemel div {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.sterrenhemel img {
+  width: 30px;  
+  height: 30px;
+}
+
+/* zorgt er voor zodat het in de midde staat */
+.doosvoormidden {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.email {
+  margin-top: 75px;
+}
+.emailsend {
+  border-radius: 10px;
+  border: 2px solid #37424d;
+  background-color: #121e28;
+  padding: 20px 100px;
+  height: 180px;
+  width: 410px;
+}
+
+#weekly {
+  font-size: 40px;
+}
+#latest {
+  color: #37424d;
+  margin-top: 14px;
+  font-size: 20px;
+}
+#emailinput {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #37424d;
+  background-color: #121e28;
+  border-radius: 10px;
+  width: 250px;
+}
+#submit {
+  background-color: #ceaaff;
+  height: 50px;
+  width: 110px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+/* Begin nieuwe section */
+#press {
+  margin-top: 50px;
+  color: #000000;
+}
+.seedoos {
+  display: flex;
+  flex-direction: row;
+  margin-left: 277px;
+  gap: 794px;
+  align-content: center;
+  margin-bottom: 30px;
+}
+
+#inpress {
+  font-size: 40px;
+  color: white;
+}
+
+.tekstdoosdoos {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  font-size: 21px;
+}
+#doosdoosdoos {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+/* de doosen voor de stuk teksten  */
+.doosvoortekst {
+  border-radius: 11px;
+  height: 350px;
+  width: 300px;
+  flex-direction: column;
+}
+.tekstdoosdoos h4 {
+  margin-bottom: 44px;
+}
+
+/* zorgt er voor dat de teks in de doos van de rant af gaat */
+.tekstindemidde {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.dikGeDrukt {
+  font-weight: 900;
+}
+.logomidden {
+  display: flex;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+.knopgoed1 {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 59px;
+}
+.knopgoed2 {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.knopgoed3 {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+/* Begin nieuwe section */
+.tech {
+ 
+  background-color: #dbe268;
+}
+.blockw {
+  background-color: #e2c1f9;
+}
+.decrypt {
+  
+  background-color: #77e6ff;
+} 
+#podcast {
+  margin-top: 60px;
+}
+.podcastkleur {
+  background-color: #2a3744;
+  border: 3px solid #37424d;
+}
+#gooseIdea {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+}
+#letsChat{
+  align-items: center;
+}
+#whatIs {
+  font-size: 50px;
+  
+}
+#chatHelp {
+  font-size: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#telegramEnMail {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+.omDeChat img {
+  position: absolute;
+  left: 21px;
+  top: 16px;
+}
+.omDeChat {
+  width: 300px;
+  height: 80px;
+  position: relative;
+  border-radius: 10px;
+}
+.chatTeks1 {
+  position: absolute;
+  top: 20px;
+  left: 88px;
+}
+.chatTeks2 {
+  position: absolute;
+  top: 40px;
+  left: 88px;
+}
+.geel {
+  background-color: #ffc803;
+}
+.roze {
+  background-color: #e2c1f9;
+}
+.knopgoed{
+margin-top: 50px;
+margin-left: 30px;
+}
+.geeltekst{
+  color:  #ffc803;
+}
+
+#heroes{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 50px;
+color: black;
+}
+.heroe{
+  width: 300px;
+height: 380px;
+  background-color: #FFB4D3;
+  border-radius: 25px;
+}
+.heroesFoto{
+margin-top: 30px;
+margin-left: 70px;
+}
+.heroesTekst1{
+margin-top: 30px;
+margin-left: 30px;
+font-size: 22px;
+}
+.heroesTekst2{
+  margin-top: 3px;
+  font-size: 22px;
+  margin-left: 30px;
+}
+.heroesTekst3{
+  margin-top: 40px;
+  font-size: 22px;
+  margin-left: 150px;
+
+}
+.sendGoose{
+  margin-left: 25vw;
+  background-color: #121e28;
+  width: 750px;
+  height: 780px;
+  border-radius: 25px;
+  border: 2px solid #37424d;
+  margin-bottom: 50px;
+}
+.postTekst{
+font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nameMail{
+  background-color: #121e28;
+  width: 500px;
+  height: 50px;
+  margin-top: 40px;
+  border-radius: 25px;
+  border: 2px solid #37424d;
+  color: #3D4C5B;
+}
+
+#message{
+  background-color: #121e28;
+  width: 500px;
+  padding: 10px 15px 265px;
+  margin-top: 40px;
+  border-radius: 25px;
+  border: 2px solid #37424d;
+  color: white;
+  
+}
+#select{
+  background-color: #281221;
+  width: 500px;
+  height: 50px;
+  margin-top: 40px;
+  border-radius: 25px;
+  border: 2px solid #3173b4;
+  color: #9fb3c7;
+}
+#send{
+  background-color: #ffaae7;
+  height: 50px;
+  width: 130px;
+  border-radius: 10px;
+  margin-top: 75px;
+  margin-left: 600px;
+}
+.extraRuimte{
+  margin-top: 100px;
+}
+.lucht{
+ padding-top: 150px;
+}
+#legal{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  font-size: 30px;
+  color: white;
+  align-items: center;
+}
+footer {
+  background-color: rgb(18, 30, 40);
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+.socialeMedia {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-left: 40px;
+}
